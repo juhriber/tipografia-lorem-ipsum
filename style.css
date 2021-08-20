@@ -1,0 +1,54 @@
+/*Tag*/
+body 
+{
+    color: white;
+    text-shadow: 0px 3px 6px black;
+    font-family: Arial;
+	background: linear-gradient(90deg, rgb(124, 59, 86), rgb(66, 129, 66), rgb(114, 49, 49), rgb(38, 38, 95), rgb(114, 114, 56));
+    background-size: 200% 200%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient 
+{
+	0% 
+    {
+		background-position: 0% 50%;
+	}
+	50% 
+    {
+		background-position: 100% 50%;
+	}
+	100% 
+    {
+		background-position: 0% 50%;
+	}
+}
+
+h1, h2, h3
+{
+    text-align: center;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 3px 6px black;
+    border-radius: 100%;
+}
+
+a
+{
+    color: white;
+    text-shadow: 0px 3px 6px black;
+    text-decoration: none; 
+}
+
+a:hover
+{
+    color: red;
+    text-shadow: 0px 3px 6px black;
+}
+/*Tag*/
